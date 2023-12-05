@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>resultat</title>
+</head>
+<body>
+
+	<h1>Prediction Probleme 2</h1>
+
+	<h3> Prediction : <span  style="color: green;">  {{ prediction }}</span></h3>
+
+
+	<form method="post">
+
+	<div>
+		
+		{% csrf_token %} 
+
+		{{ form.as_p }}
+
+		<input type="submit" name="submit">
+	</div>
+	
+</form>
+
+
+<hr>
+
+    <!-- Afficher les prédictions -->
+    {% if predictions %}
+        <h2>Prédictions :</h2>
+        <ul>
+            {% for prediction in predictions %}
+                <li>{{ prediction }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
+
+
+</body>
+</html>

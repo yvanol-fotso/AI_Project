@@ -1,0 +1,24 @@
+Pillow==8.3.1 
+image 
+tk==0.1.0
+python-tk
+numpy==1.21.0
+pandas==1.3.0
+matplotlib==3.4.2
+mysql-connector-python-rf==2.2.2
+pyttsx3
+....
+
+look all requirement in to main.py file install all 
+an open WAMP / ZAMP
+
+go in phpMyAdmin and upload the database files after do that
+
+start the main.py file ,use the identification in data base file in admin table to login and acces to different interface 
+....
+
+look and read all comment in any field if you don't understood anyway
+
+thanks by fotso tatchum yvanol (i'm not speak english very well i try just) 
+Good luck 
+

@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>resultat</title>
+</head>
+<body>
+
+	<h1>Prediction Probleme 1</h1>
+
+	<h3> Prediction : <span  style="color: green;">  {{ prediction }}</span></h3>
+
+
+	<form method="post">
+
+	<div>
+		
+		{% csrf_token %} 
+
+		{{ form.as_p }}
+
+		<input type="submit" name="submit">
+	</div>
+	
+</form>
+
+
+
+</body>
+</html>
