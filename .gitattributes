@@ -1,0 +1,14 @@
+\# filter=lfs diff=lfs merge=lfs -text
+* text=auto
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.data filter=lfs diff=lfs merge=lfs -text
+Ou filter=lfs diff=lfs merge=lfs -text
+tu filter=lfs diff=lfs merge=lfs -text
+veux filter=lfs diff=lfs merge=lfs -text
+de filter=lfs diff=lfs merge=lfs -text
+LFS filter=lfs diff=lfs merge=lfs -text
+tout filter=lfs diff=lfs merge=lfs -text
+autre filter=lfs diff=lfs merge=lfs -text
+fichier filter=lfs diff=lfs merge=lfs -text
+que filter=lfs diff=lfs merge=lfs -text
+exclure filter=lfs diff=lfs merge=lfs -text
