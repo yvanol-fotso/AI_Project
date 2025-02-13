@@ -1,0 +1,99 @@
+from tensorflow.keras.layers import Input, Dense, Activation, Add, LayerNormalization
+from mish_activation import Mish
+from tensorflow.keras.models import Model
+
+# Définition des dimensions des couches
+input_dim = taille_num_features_balanced + taille_text_features_balanced
+hidden_dim = 784
+output_dim = 512
+
+# Entrée
+input_data = Input(shape=(input_dim,))
+
+# Couche linéaire initiale
+hidden_layer = Dense(hidden_dim)(input_data)
+hidden_layer = Activation(Mish)(hidden_layer)
+
+# Couche cachée
+hidden_layer = Dense(hidden_dim)(hidden_layer)
+hidden_layer = Activation(Mish)(hidden_layer)
+
+# Couche linéaire finale
+output_data = Dense(output_dim)(hidden_layer)
+output_data = Activation(Mish)(output_data)
+
+# Opération résiduelle
+output_data = Add()([output_data, input_data])
+
+# Normalisation de couche
+output_data = LayerNormalization()(output_data)
+
+# Création du modèle
+model = Model(inputs=input_data, outputs=output_data)
+
+# Affichage du résumé du modèle
+print(model.summary())
+
+
+
+code focntion d'activation Mish()
+
+import tensorflow as tf
+
+class Mish(tf.keras.layers.Layer):
+    def __init__(self):
+        super(Mish, self).__init__()
+
+    def call(self, inputs):
+        return inputs * tf.math.tanh(tf.math.softplus(inputs))
+
+
+mon code tester qui n'est pas jusqua  la a 99 %
+
+from tensorflow.keras.layers import Input, Dense, Embedding, GlobalAveragePooling1D, concatenate, Dropout, LayerNormalization
+# from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.optimizers.legacy import Adam
+
+from tensorflow.keras.models import Model
+# from mish_activation import Mish
+
+# Entrées
+input_num = Input(shape=(taille_num_features_balanced,))
+input_text = Input(shape=(taille_text_features_balanced,))
+
+# Caractéristiques numériques - Réseau dense
+num_branch = Dense(128, activation='relu')(input_num)
+num_branch = Dense(64, activation='relu')(num_branch)
+
+# Caractéristiques textuelles - Réseau Embedding
+embedding_dim = 256
+vocab_size = 144185
+max_sequence_length = taille_text_features_balanced
+
+text_branch = Embedding(input_dim=vocab_size, output_dim=embedding_dim, input_length=max_sequence_length)(input_text)
+text_branch = GlobalAveragePooling1D()(text_branch)
+
+# Fusion des branches
+merged = concatenate([num_branch, text_branch])
+
+# Couche linéaire
+merged = Dense(128)(merged)
+
+# Activation Mish
+merged = Mish()(merged)
+
+# Normalisation de couche
+merged = LayerNormalization()(merged)
+
+# Couches supplémentaires après la fusion
+merged = Dense(256, activation='relu')(merged)
+merged = Dropout(0.5)(merged)
+merged = Dense(128, activation='relu')(merged)
+output = Dense(1, activation='sigmoid')(merged)
+
+# Création et compilation du modèle
+model = Model(inputs=[input_num, input_text], outputs=output)
+opt = Adam(learning_rate=0.001)
+model.compile(optimizer=opt, loss='binary_crossentropy', metrics=['accuracy'])
+
+print(model.summary())

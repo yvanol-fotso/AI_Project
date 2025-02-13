@@ -1,0 +1,231 @@
+{
+    "questions": [
+      {
+        "question": "Quel est l'algorithme de tri le plus rapide ?",
+        "options": ["Tri par insertion", "Tri fusion", "Tri rapide", "Tri à bulles"],
+        "answer": "Tri rapide",
+        "marks" : 1
+      },
+      {
+        "question": "Quelle est la complexité temporelle du tri fusion ?",
+        "options": ["O(n log n)", "O(n^2)", "O(n)", "O(log n)"],
+        "answer": "O(n log n)",
+        "marks" : 2
+      },
+      {
+        "question": "Quel est l'algorithme de recherche le plus efficace ?",
+        "options": ["Recherche séquentielle", "Recherche binaire", "Recherche exponentielle", "Recherche linéaire"], 
+        "answer": "Recherche binaire",
+        "marks" : 3
+      },
+      {
+        "question": "Quelle est la complexité temporelle de la recherche binaire ?",
+        "options": ["O(log n)", "O(n)", "O(n log n)", "O(n^2)"], 
+        "answer": "O(log n)",
+        "marks" : 3
+      },
+      {
+        "question": "Quel est l'algorithme de tri adapté aux listes presque triées ?",
+        "options": ["Tri par insertion", "Tri fusion", "Tri rapide", "Tri à bulles"], 
+        "answer": "Tri par insertion",
+        "marks" : "1"
+        
+      },
+      {
+        "question": "Quel est l'algorithme de tri adapté aux listes de petite taille ?",
+        "options": ["Tri par insertion", "Tri fusion", "Tri rapide", "Tri à bulles"], 
+        "answer": "Tri par insertion",
+        "marks" : 2
+      },
+      {
+        "question": "Quelle est la complexité temporelle de la recherche séquentielle ?",
+        "options": ["O(n log n)", "O(n)", "O(log n)", "O(n^2)"], 
+        "answer": "O(n)",
+        "marks" : 3
+        
+      },
+      {
+        "question": "Quelle est la complexité spatiale de l'algorithme de tri rapide ?",
+        "options": ["O(n)", "O(log n)", "O(n^2)", "O(n log n)"], 
+        "answer": "O(log n)",
+        "marks" : 1
+      },
+      {
+        "question": "Quel est l'algorithme utilisé pour trouver le plus court chemin dans un graphe pondéré ?",
+        "options": ["Algorithme de Dijkstra", "Algorithme de Bellman-Ford", "Algorithme de Floyd-Warshall", "Algorithme de Kruskal"], 
+        "answer": "Algorithme de Dijkstra",
+        "marks" : 2
+      },
+      {
+        "question": "Quelle est la complexité temporelle de l'algorithme de recherche linéaire ?",
+        "options": ["O(log n)", "O(n)", "O(n log n)", "O(n^2)"], 
+        "answer": "O(n)",
+        "marks" : 3
+      },
+      {
+        "question": "Quel est l'algorithme utilisé pour trouver un arbre couvrant minimal dans un graphe pondéré ?",
+        "options":  ["Algorithme de Prim", "Algorithme de Kruskal", "Algorithme de Dijkstra", "Algorithme de Bellman-Ford"], 
+        "answer": "Algorithme de Prim",
+        "marks" : 1
+      },
+      {
+        "question": "Quelle est la complexité temporelle de l'algorithme de Kruskal ?",
+        "options":  ["O(n log n)", "O(n)", "O(log n)", "O(n^2)"], 
+        "answer": "O(n log n)",
+        "marks" : 2
+      },
+      {
+        "question": "Quel est l'algorithme utilisé pour trouver le plus court chemin dans un graphe avec des arêtes de poids négatif ?",
+        "options":  ["Algorithme de Dijkstra", "Algorithme de Bellman-Ford", "Algorithme de Floyd-Warshall", "Algorithme de Kruskal"], 
+        "answer": "Algorithme de Bellman-Ford",
+        "marks" : 3
+      },
+      {
+        "question": "Quelle est la complexité temporelle de l'algorithme de Floyd-Warshall ?",
+        "options":  ["O(n^3)", "O(n^2)", "O(n log n)", "O(n)"], 
+        "answer": "O(n^3)",
+        "marks" : 1
+      },
+      {
+        "question": "Quel est l'algorithme utilisé pour effectuer une recherche en profondeur dans un graphe ?",
+        "options":  ["Parcours en profondeur d'abord (DFS)", "Parcours en largeur d'abord (BFS)", "Algorithme de Kruskal", "Algorithme de Prim"],  
+        "answer": "Parcours en profondeur d'abord (DFS)",
+        "marks" : 2
+      },
+      {
+        "question": "Quelle est la complexité temporelle de l'algorithme de recherche en profondeur ?",
+        "options":  ["O(n)", "O(log n)", "O(n^2)", "O(n log n)"], 
+        "answer": "O(n)",
+        "marks" : 3
+      },
+      {
+        "question": "Quel est l'algorithme utilisé pour effectuer une recherche en largeur dans un graphe ?",
+        "options": ["Parcours en largeur d'abord (BFS)", "Parcours en profondeur d'abord (DFS)", "Algorithme de Kruskal", "Algorithme de Prim"], 
+        "answer": "Parcours en largeur d'abord (BFS)",
+        "marks" : 1
+      },
+      {
+        "question": "Qu'est-ce qu'un algorithme?",
+        "options": ["Un organigramme", "Un organigramme ou un pseudocode", "Une décision", "Instructions pas à pas utilisées pour résoudre un problème"], 
+        "answer": "Instructions pas à pas utilisées pour résoudre un problème",
+        "marks" : 2
+      },
+      {
+        "question": "Quelles sont les trois constructions d'algorithme?",
+        "options": ["Entrée, Sortie, Processus", "Séquence, Sélection, Répétition", "Entrée / Sortie, Décision, Répétition", "Boucle, Entrée/Sortie, Processus"], 
+        "answer": "Séquence, Sélection, Répétition",
+        "marks" : 3
+      },
+      {
+        "question": "Quelle est la différence entre un organigramme et un pseudocode?",
+        "options": ["Un organigramme est schématique tandis que le pseudocode est écrit dans un langage de programmation (par exemple, Pascal ou Java)", "Un organigramme est textuel mais le pseudocode est schématique", "Un organigramme est une description schématique d'un algorithme, tandis que le pseudocode est une description textuelle d'un algorithme.", "Un organigramme et un pseudocode sont pareils"], 
+        "answer": "Un organigramme est une description schématique d'un algorithme, tandis que le pseudocode est une description textuelle d'un algorithme.",
+        "marks" : 1
+      },
+      {
+        "question": "Dans un organigramme, une instruction d'entrée ou de sortie est représentée par _____?",
+        "options": ["Un losange", "Un rectangle", "Un parallélogramme", "Un cercle"], 
+        "answer": "Un parallélogramme",
+        "marks" : 3
+      },
+      {
+        "question": "Dans un organigramme, un calcul (processus) est représenté par _____?",
+        "options": ["Un losange", "Un rectangle", "Un parallélogramme", "Un cercle"], 
+        "answer": "Un rectangle",
+        "marks" : 2
+      },
+      {
+        "question": "Pour répéter une tâche, nous utilisons une ____?",
+        "options": ["Entrée", "Condition", "Boucle", "Sortie"], 
+        "answer": "Boucle",
+        "marks" : 1
+      },
+      {
+        "question": "Si ....... Alors ....... Sinon ....... Fin Si vérifier ____?",
+        "options": ["Une seul condition", "Deux conditions", "Trois conditions", "Plusieurs conditions"], 
+        "answer": "Deux conditions",
+        "marks" : 2
+      },
+      {
+        "question": "Répéter <traitement> jusqu'a <condition> est une ______?",
+        "options": ["Boucle positive", "Les deux", "Boucle négative", "Aucun"], 
+        "answer": "Boucle positive",
+        "marks" : 3
+      },
+      {
+        "question": "Qu'est-ce qu'un organigramme?",
+        "options": ["Un moyen de concevoir un algorithme basé sur du texte", "Un langage de programmation spécifique", " Un diagramme qui représente un ensemble d'instructions", "Un schéma d'instructions"], 
+        "answer": " Un diagramme qui représente un ensemble d'instructions",
+        "marks" : 1
+      },
+      {
+        "question": "L'arbre de Huffman attribue :",
+        "options": ["un code binaire court aux caractères fréquents", "RAS", "un code binaire court aux caractères rares","Les deux"], 
+        "answer": "un code binaire court aux caractères fréquents",
+        "marks" : 2
+      },
+      {
+        "question": "Comment mesure-t-on la complexité temporelle d'un algorithme ?",
+        "options": ["en estimant l'espace mémoire utilisé pendant son exécution", "RAS", "en mesurant son temps d'exécution","Les deux"], 
+        "answer": "en mesurant son temps d'exécution",
+        "marks" : 3
+      },
+      {
+        "question": "Combien de comparaisons effectuera l'algorithme de tri par insertion si on l'applique à un tableau de n éléments déjà trié ?",
+        "options": ["(n²+n)/2", "n-1", "n.(n+1)","log(n)"], 
+        "answer": "n-1",
+        "marks" : 1
+      },
+      {
+        "question": "Quel est l'avantage du tri à bulles par rapport au tri par insertion ?",
+        "options": ["il ne possède aucun de ces deux avantages", "il effectue moins d'échanges en moyenne", "il effectue moins de comparaisons en moyenne","Aucun"], 
+        "answer": "il ne possède aucun de ces deux avantages",
+        "marks" : 3
+      },
+      {
+        "question": "Que devient la chaîne de caractères JJJJJJJJKKKKLL si on la compresse par l'algorithme RLE ?",
+        "options": ["8J4K2L", "4B6X5N2E2P", "5S2K7D3E5Y","8F5J7P3V2B5R"], 
+        "answer": "8J4K2L",
+        "marks" : 2
+      },
+      {
+        "question": "Combien de comparaisons effectuera l'algorithme de tri à bulles si on l'applique à un tableau de 20 éléments déjà trié ?",
+        "options": ["0", "400", "190","19"], 
+        "answer": "19",
+        "marks" : 1
+      },
+      {
+        "question": "Quel algorithme de tri divise récurcivement la liste de départ en 2 sous-listes jusqu'à obtenir seulement des listes à 1 élément avant de les réunir ?",
+        "options": ["le tri par sélection", "le tri fusion", "le tri à bulles","le tri par insertion"], 
+        "answer": "le tri fusion",
+        "marks" : 2
+      },
+      {
+        "question": "Quel est l'avantage du tri par sélection par rapport au tri à bulles ?",
+        "options": ["il effectue moins d'échanges en moyenne", "il ne possède aucun de ces deux avantages", "il est stable","le a et c"], 
+        "answer": "il effectue moins d'échanges en moyenne",
+        "marks" : 3
+      },
+      {
+        "question": "Un arbre binaire est :",
+        "options": ["un algorithme de tri", "un algorithme de parcourt de graphe", "un algorithme de recherche","Aucune de ces propositions"], 
+        "answer": "Aucune de ces propositions",
+        "marks" : 1
+      },
+      {
+        "question": "Un fichier de volume initial Vi est compressé grâce au codage de Huffman. Après compression le fichier occupe un volume final Vf. Combien vaut alors le gain ?",
+        "options": ["(Vf - Vi) / Vi", "1 - (Vf / Vi)", "Aucune de ces propositions","(Vi - Vf) / Vf"], 
+        "answer": "1 - (Vf / Vi)",
+        "marks" : 3
+      },
+      {
+        "question": "L'algorithme RLE est :",
+        "options": ["un algorithme de tri", "un algorithme de parcourt de graphe", "un algorithme de compression","un autre type d'algorithme"], 
+        "answer": "un algorithme de compression",
+        "marks" : 2
+      }
+    ]
+  }
+
+
+  

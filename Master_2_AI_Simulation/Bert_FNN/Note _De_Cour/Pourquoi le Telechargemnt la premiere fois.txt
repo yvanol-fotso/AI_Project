@@ -1,0 +1,7 @@
+Lorsque vous utilisez la bibliothèque Transformers de Hugging Face pour charger un modèle pré-entraîné comme BERT, le téléchargement des poids du modèle peut être nécessaire si vous ne les avez pas déjà enregistrés localement sur votre machine. Le téléchargement se fait automatiquement lors de la première utilisation du modèle.
+
+Cela peut entraîner le téléchargement d'un certain volume de données, dans le cas de BERT-base-uncased, cela peut être de l'ordre de plusieurs centaines de mégaoctets.
+
+Si vous avez déjà téléchargé les poids du modèle sur votre machine lors d'une utilisation précédente, le téléchargement ne devrait pas se reproduire à moins que les fichiers ne soient supprimés.
+
+Assurez-vous que vous disposez d'une connexion Internet stable pour permettre le téléchargement initial des poids du modèle. Après le téléchargement initial, les poids du modèle seront enregistrés localement, et vous pourrez les réutiliser sans avoir besoin d'une connexion Internet à chaque exécution.
