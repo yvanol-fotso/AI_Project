@@ -1,0 +1,35 @@
+Ce repository regroupe plusieurs projets de master dans le domaine de l'intelligence artificielle, couvrant différents aspects de l'IA et du machine learning. Voici les projets présentés :
+
+Détection d'attaques DNS Spoofing :
+Ce projet consiste en la création d’une approche unifiée pour détecter les attaques DNS Spoofing en utilisant des modèles d'apprentissage automatique. J'ai testé plusieurs modèles, dont FFN_LSTM, FFN_Transformer, ainsi que des approches unifiées comme BERT et Distilled BERT. De plus, différentes méthodes de sélection de caractéristiques ont été appliquées, notamment la méthode Feature Importance, RFE, RFE CV, et Variance Threshold.
+
+Génération d’épreuves dans un dispositif de formation à distance :
+Ce projet porte sur la génération intelligente de sujets d'examen dans un environnement de formation en ligne. Une approche hybride combinant des algorithmes d'optimisation et Machine Learning a été utilisée pour générer des épreuves équivalentes tout en respectant des critères de durée, de difficulté et de points.
+
+Transcription des Ton Yemba :
+Ce projet vise à transcrire la langue Yemba à l'aide de modèles Speech-to-Text pré-entraînés. La méthode de validation utilisée repose sur une technique de cross-validation.
+
+
+#####################################################################################################
+
+ AI_PROJECT
+
+This repository hosts various master's level projects in the field of Artificial Intelligence, covering multiple aspects of AI and machine learning. Below are the featured projects:
+
+DNS Spoofing Attack Detection:
+This project focuses on creating a unified approach to detect DNS Spoofing attacks using machine learning models. I tested various models including FFN_LSTM, FFN_Transformer, as well as unified approaches like BERT and Distilled BERT. Different feature selection methods were also applied, including Feature Importance, RFE, RFE CV, and Variance Threshold.
+
+Generation of Exam Papers for Distance Learning:
+This project involves the intelligent generation of exam papers in an online training system. A hybrid approach combining optimization algorithms and Machine Learning was used to generate equivalent papers while adhering to constraints such as duration, difficulty, and marks.
+
+Transcription of Ton Yemba:
+This project aims to transcribe the Yemba language using pre-trained Speech-to-Text models. The validation method employed is based on cross-validation.
+
+###############################################################################
+
+Ce repository regroupe plusieurs projets utilisant des modèles d’intelligence artificielle pour résoudre des problématiques complexes. Le premier projet se concentre sur la détection d'attaques DNS Spoofing en utilisant des modèles d'apprentissage automatique. Le deuxième projet aborde la génération intelligente d’épreuves d'examen dans un cadre de formation à distance, tandis que le troisième porte sur la transcription de la langue locale Yemba via un modèle de Speech-to-Text.
+
+
+This repository brings together several projects that use artificial intelligence models to solve complex problems. The first project focuses on DNS Spoofing attack detection using machine learning models. The second project addresses intelligent exam paper generation within a distance learning framework, while the third deals with transcribing the local Yemba language using a Speech-to-Text model.
+
+########################################################

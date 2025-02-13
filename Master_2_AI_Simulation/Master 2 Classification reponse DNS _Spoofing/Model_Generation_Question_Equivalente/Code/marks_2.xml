@@ -1,0 +1,128 @@
+<quiz>
+  <!-- question: 1 -->
+  <question type="multichoice">
+    <name>
+      <text>Question 1</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<pre>L'algorithme RLE est :</pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>none</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="html">
+      <text><![CDATA[1. un algorithme de tri]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>none</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[2. un algorithme de parcourt de graphe]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>none</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[3. un algorithme de compression]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>none</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[4. un autre type d'algorithme]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>none</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 2 -->
+  <question type="multichoice">
+    <name>
+      <text>Question 2</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<pre>Quel algorithme de tri divise récurcivement la liste de départ en 2 sous-listes jusqu'à obtenir seulement des listes à 1 élément avant de les réunir ?</pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>none</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="html">
+      <text><![CDATA[1. le tri par sélection]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>none</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[2. le tri fusion]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>none</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[3. le tri à bulles]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>none</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[4. le tri par insertion]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>none</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <!-- question: 3 -->
+  <question type="multichoice">
+    <name>
+      <text>Question 3</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<pre>Dans un organigramme, un calcul (processus) est représenté par _____?</pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>none</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0" format="html">
+      <text><![CDATA[1. Un losange]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>none</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[2. Un rectangle]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>none</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[3. Un parallélogramme]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>none</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[4. Un cercle]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>none</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>
